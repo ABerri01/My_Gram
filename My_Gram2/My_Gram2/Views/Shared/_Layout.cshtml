@@ -21,50 +21,68 @@
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
+            <style>
+               
+
+                img {
+                    width: 150px;
+                    height: 150px;
+                }
+                video {
+                    width: 150px;
+                    height: 150px;
+                    
+                }
+            </style>
+
             <div>
                 <table>
-                   
+
                     <tbody>
-                       
-                            <td>
-                                Image 1 </br>
 
-                            </td>
+                    <td>
+                        <Img src="~/images/Picture1.jpg"/> </br>
 
-                        
-                        
-                            <td>
-                                Image 2 </br>
+                    </td>
 
-                            </td>
 
-                       
-                            <td>
-                                Image 3 </br>
 
-                            </td>
-                            <tr>
-                       
-                            <td>
-                                Image 4 </br>
+                    <td>
+                        <img src="~/images/Picture2.jpg" /> </br>
 
-                            </td>
+                    </td>
 
-                       
-                            <td>
-                                Image 5 </br>
 
-                            </td>
+                    <td>
+                        <img src="~/images/Picture3.jpg" /> </br>
 
-                        
-                            <td>
-                                Image 6 </br>
+                    </td>
+                    <tr>
 
-                            </td>
+                        <td>
+                            <Img src="~/images/Picture4.jpg" /> </br>
+
+                        </td>
+
+
+                        <td>
+                            <img src="~/images/Picture5.jpg" /> </br>
+
+                        </td>
+
+
+                        <td>
+                            <video controls type="video/mp4" />
+                            
+                            <source src="~/videos/video1.mp4" />
+                                </video>
+                            </br>
+
+                        </td>
                     </tr>
-                        
+
                     </tbody>
-                    
+
                 </table>
             </div>
         </main>
