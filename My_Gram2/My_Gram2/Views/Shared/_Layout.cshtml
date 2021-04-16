@@ -3,7 +3,9 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["My Gram"] - My_Gram2</title>
+    <meta http-equiv="content-security-policy"
+          content="img-src 'self'" />
+<title>@ViewData["My Gram"] - My_Gram2</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
@@ -11,137 +13,24 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-              <div>My Gram 2</div>
-                <button> Log In </button> <button> Sign Up </button>
-             
-                
+                <div>My Gram 2</div>
+                <button> Log In </button>
+                <a href="~/home/register"><button>Sign Up</button></a>
+
+
             </div>
         </nav>
     </header>
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
-            <div>
-            <style>
-                img {
-                    width: 500px;
-                    height: 500px;
-
-                }
-            </style>
-            <table>
-                
-               <thead>
-                    <td>
-                        <img src="~/images/pfp.png" />
-               </td>
-                        
-                            <td>
-                            Mikasa
-
-                            <button>
-                                Follow
-                            </button>
-                           </td> 
-                         <td>
-                        6 Posts
-
-                        No Followers
-
-                        0 Following
-                    </td>
-                   
-                <td>
-                        Description
-                    
-                    </td>
-                </thead>
-                
-            </table> </br>
-           
-               <a href="https://www.google.com/"
-                   target="_Blank"> Posts </a>
-            
-                <a href="https://www.google.com/"
-                   target="_Blank">Reels </a>
-            
-                <a href="https://www.google.com/"
-                   target="_Blank">IGTV </a>
-            
-                <a href="https://www.google.com/"
-                   target="_Blank"> Tagged </a>
-            
-
-            </div>
-           
-            <style>
-               
-
-                img {
-                    width: 150px;
-                    height: 150px;
-                }
-                video {
-                    width: 150px;
-                    height: 150px;
-                    
-                }
-            </style>
-
-            <div>
-                <table>
-
-                    <tbody>
-
-                    <td>
-                        <Img src="~/images/Picture1.jpg"/> </br>
-
-                    </td>
-
-                    <td>
-                        <img src="~/images/Picture2.jpg" /> </br>
-
-                    </td>
-
-
-                    <td>
-                        <img src="~/images/Picture3.jpg" /> </br>
-
-                    </td>
-                    <tr>
-
-                        <td>
-                            <Img src="~/images/Picture4.jpg" /> </br>
-
-                        </td>
-
-
-                        <td>
-                            <img src="~/images/Picture5.jpg" /> </br>
-
-                        </td>
-
-
-                        <td>
-                            <video controls type="video/mp4" />
-                            
-                            <source src="~/videos/video1.mp4" />
-                                </video>
-                            </br>
-
-                        </td>
-                    </tr>
-
-                    </tbody>
-
-                </table>
-            </div>
+          
         </main>
     </div>
 
    <footer class="Border-top footer text-muted">
        <div class="container">
-           &copy; <footer>
+           &copy;
     <a href="https://www.google.com/"
        target="_Blank">
         About
