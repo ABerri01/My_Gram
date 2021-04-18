@@ -40,6 +40,10 @@ namespace My_Gram2.Controllers
 
             return Content(myResult);
         }
+        public IActionResult MyProfile()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

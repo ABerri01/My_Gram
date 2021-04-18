@@ -351,3 +351,4 @@
 /Users/alejandraberrios/Desktop/My Gram/My_Gram2/My_Gram2/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
 /Users/alejandraberrios/Desktop/My Gram/My_Gram2/My_Gram2/obj/Debug/netcoreapp3.1/My_Gram2.MvcApplicationPartsAssemblyInfo.cs
 /Users/alejandraberrios/Desktop/My Gram/My_Gram2/My_Gram2/obj/Debug/netcoreapp3.1/Razor/Views/Home/Register.cshtml.g.cs
+/Users/alejandraberrios/Desktop/My Gram/My_Gram2/My_Gram2/obj/Debug/netcoreapp3.1/Razor/Views/Home/MyProfile.cshtml.g.cs
