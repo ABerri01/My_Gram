@@ -1,13 +1,9 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+<link rel="stylesheet" href="~/css/site.css" />
+
 <div>
-    <style>
-        img {
-            width: 500px;
-            height: 500px;
-        }
-    </style>
     <table>
 
         <tbody>
@@ -16,113 +12,104 @@
                 <td rowspan="3">
                     <p>
                         <a href="~/home/UpdateProfile">
-                            <img src="~/images/pfp.png" /> </a> </p>
-</td>
-   
+                            <img src="~/images/pfp.png" />
+                        </a>
+                    </p>
+                </td>
 
-        <td>
-            Mikasa
 
-            <button>
-                Follow
-            </button>
-            
-        </td>
+                <td>
+                    Mikasa
+
+                    <a class="grambuttons" href="">Follow</a>
+
+                </td>
             </tr>
             <tr>
-        <td>
-           <span> 6 Posts </span>
-            
-            <span>No Followers </span>
+                <td>
+                    <span> <b>6</b> Posts </span>
 
-            <span>0 Following </span>
-        </td>
-        </tr>
+                    <span> <b>No</b> Followers </span>
+
+                    <span> <b>0</b> Following </span>
+                </td>
+            </tr>
             <tr>
-        <td>
-            Description
+                <td>
+                    Description
 
-        </td>
-        </tr>
+                </td>
+            </tr>
         </tbody>
 
     </table> </br>
 
-    <a href="https://www.google.com/"
-       target="_Blank"> Posts </a>
+    <div class="Div2">
+        <span class="TestSpan">
 
-    <a href="https://www.google.com/"
-       target="_Blank">Reels </a>
+            <a href="https://www.google.com/"
+               target="_Blank"> Posts </a>
 
-    <a href="https://www.google.com/"
-       target="_Blank">IGTV </a>
+            <a href="https://www.google.com/"
+               target="_Blank">Reels </a>
 
-    <a href="https://www.google.com/"
-       target="_Blank"> Tagged </a>
+            <a href="https://www.google.com/"
+               target="_Blank">IGTV </a>
 
-
-</div>
-
-<style>
-
-
-    img {
-        width: 150px;
-        height: 150px;
-    }
-
-    video {
-        width: 150px;
-        height: 150px;
-    }
-</style>
-
-<div>
-    <table>
-
-        <tbody>
-            <tr>
-        <td>
-            <Img src="~/images/Picture1.jpg" />
-
-        </td>
-
-        <td>
-            <img src="~/images/Picture2.jpg" />
-
-        </td>
+            <a href="https://www.google.com/"
+               target="_Blank"> Tagged </a>
+    </div>
 
 
-        <td>
-            <img src="~/images/Picture3.jpg" /> 
+    <div>
 
-        </td> </tr>
-        <tr>
+        <table>
 
-            <td>
-                <Img src="~/images/Picture4.jpg" /> 
+            <tbody>
+                <tr>
+                    <td>
+                        <Img src="~/images/Picture1.jpg" />
 
-            </td>
+                    </td>
+
+                    <td>
+                        <img src="~/images/Picture2.jpg" />
+
+                    </td>
 
 
-            <td>
-                <img src="~/images/Picture5.jpg" />
+                    <td>
+                        <img src="~/images/Picture3.jpg" />
 
-            </td>
+                    </td>
+                </tr>
+                <tr>
+
+                    <td>
+                        <Img src="~/images/Picture4.jpg" />
+
+                    </td>
 
 
-            <td>
-                <video controls type="video/mp4">
+                    <td>
+                        <img src="~/images/Picture5.jpg" />
 
-                <source src="~/videos/video1.mp4" />
-                </video>
-                
+                    </td>
 
-            </td>
-        </tr>
 
-        </tbody>
+                    <td>
+                        <div>
+                            <video controls type="video/mp4">
 
-    </table>
-</div>
+                                <source src="~/videos/video1.mp4" />
+                            </video>
+
+
+                    </td>
+                </tr>
+
+            </tbody>
+
+        </table>
+    </div>
 
