@@ -92,6 +92,18 @@ body {
     border-radius: 2px;
 }
 
+.grambuttons:hover {
+    background-color: purple !important;
+    color: white!important;
+    border-radius: 2px;
+}
+.grambuttons2 {
+    color: grey;
+}
+.grambuttons2:hover {
+    color:black;
+}
+
 .testspan {
     font-family: Helvetica !important;
     font-size: 12pt;

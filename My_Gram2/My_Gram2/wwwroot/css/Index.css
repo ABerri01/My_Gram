@@ -7,22 +7,6 @@ video {
     width: 150px;
     height: 150px;
 }
-
-.Div1 {
-    font-family: Apple Chancery!important;
-    font-size: 24pt;
-}
-
-
-
-.ButtonClass {
-    background-color: #0095f6!important;
-    color: white;!important;
-    border-radius: 5px;
-}
-
-.testspan {
-    font-family: Helvetica!important;
-    font-size: 12pt;
-    color: #cccccc !important;
+table {
+    text-align: center;
 }
