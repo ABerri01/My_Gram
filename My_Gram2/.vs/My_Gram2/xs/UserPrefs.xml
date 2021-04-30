@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{8CF94C88-7141-4EBF-9A31-FFA2F1BDFBBE}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="My_Gram2/wwwroot/css/site.css">
     <Files>
-      <File FileName="My_Gram2/Views/Shared/_Layout.cshtml" Line="43" Column="37" />
+      <File FileName="My_Gram2/Views/Shared/_Layout.cshtml" Line="25" Column="30" />
       <File FileName="My_Gram2/wwwroot/css/Index.css" />
-      <File FileName="My_Gram2/wwwroot/css/site.css" Line="64" Column="2" />
+      <File FileName="My_Gram2/wwwroot/css/site.css" Line="17" Column="30" />
       <File FileName="My_Gram2/Views/Home/Index.cshtml" />
     </Files>
     <Pads>

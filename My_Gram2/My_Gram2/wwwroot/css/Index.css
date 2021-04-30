@@ -8,5 +8,5 @@ video {
     height: 150px;
 }
 table {
-    text-align: center;
+    text-align: center!important;
 }
