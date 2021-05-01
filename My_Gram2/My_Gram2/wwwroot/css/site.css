@@ -79,12 +79,12 @@ body {
 .footer div {
     font-family: Helvetica !important;
     font-size: 12pt;
-    color: grey !important;
+    color: grey!important;
 }
 
 .grambuttons {
     background-color: #0095f6 !important;
-    color: white;!important;
+    color: white!important;
     border-radius: 2px;
 }
 
@@ -121,3 +121,22 @@ body {
     height: 15px;
     text-align: center !important;
 }
+
+.DivParent {
+    background-color: RGBA(0,0,0,.8) !important;
+    color: white !important;
+    font-family: Helvetica !important;
+    font-size: 12pt;
+    line-height: 60px;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+}
+
+.DivSticky {
+    background-color: RGBA(0,0,0,.8) !important;
+    backdrop-filter: opacity(65%);
+    position: sticky;
+    top: 0;
+}
+
