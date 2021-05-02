@@ -123,7 +123,8 @@ body {
 }
 
 .DivParent {
-    background-color: RGBA(0,0,0,.8) !important;
+    position: relative;
+    top: 0;
     color: white !important;
     font-family: Helvetica !important;
     font-size: 12pt;
@@ -131,12 +132,22 @@ body {
     text-align: center;
     height: 100px;
     width: 100%;
+    animation: Animation 0s 5s forwards;
 }
 
 .DivSticky {
     background-color: RGBA(0,0,0,.8) !important;
     backdrop-filter: opacity(65%);
     position: sticky;
-    top: 0;
+    bottom: 0;
+}
+
+@keyframes Animation {
+    from {
+        visibility: visible;
+    }
+    to {
+        visibility: hidden;
+    }
 }
 

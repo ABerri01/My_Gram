@@ -32,16 +32,29 @@
             </div>
         </nav>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
 
-        </main>
+    <body>
+
+
+        <div class="container">
+            <main role="main" class="pb-3">
+                @RenderBody()
+
+            </main>
+        </div>
+
+
+    </body>
+
+    <div id="container" class="DivParent">
+        <div class="DivSticky">
+            Log In to MyGram2
+            <a class="grambuttons" href="~/Home/Register">Log In</a> </br>
+            Log in to see photos and videos from friends and discover other accounts you'll love.
+            <a class="grambuttons" href="~/Home/UpdateProfile">Update Profile</a>
+        </div>
+
     </div>
-
-
-
-
 
     <footer class="Border-top footer text-muted">
         <div class="footer">
@@ -81,17 +94,7 @@
         </div>
     </footer>
 
-    <div class="DivParent">
-        <div class="DivSticky">
-            Log In to MyGram2
-            <a class="grambuttons" href="~/Home/Register">Log In</a> 
-        </div>
-        <div class="DivSticky">
-            Log in to see photos and videos from friends and discover other accounts you'll love.
-            <a class="grambuttons" href="~/Home/UpdateProfile">Update Profile</a> 
-        </div>
 
-    </div>
 
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
