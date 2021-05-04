@@ -9,4 +9,10 @@ video {
 }
 table {
     text-align: center!important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.CenterDiv {
+    text-align: center !important;
 }
