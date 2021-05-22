@@ -1,44 +1,39 @@
 ﻿<form method="get" action="~/Home/SaveUser">
-
+    <link rel="stylesheet" href="~/css/register.css" />
     <fieldset>
-        <legend>Register the user</legend>
-        <table>
-            <tbody>
-                <tr>
-                    <td>
+        <div class="flextable">Register the user</div>
+       
+                    <div class="flextablecell">
                         <label for="UserName">User name</label>
-                    </td>
-                    <td>
+                    </div>
+                    <div class="flextablecell">
                         <input id="UserName" type="text" name="UserName" value="Insert UserName"
                                size="40" maxlength="40"
                                placeholder="type your username here" />
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label for="Password"> Password </label>
-                    </td>
-                    <td>
+                    </div>
+                
+                
+                    <div class="flextablecell">
+                        <label -for="Password"> Password </label>
+                    </div>
+                    <div>
                         <input id="Password" name="Password" type="Password"
                                size="40" maxlength="40"
                                placeholder="type your password here" />
-                    </td>
-                </tr>
+                    </div>
+               
 
-                <tr>
-                    <td colspan="2">
+                
+                    <div class="flextablecell">
                         <input type="submit" value="Register" />
                         <input type="reset" />
-                    </td>
-                </tr>
+                    </div>
+                
 
 
 
 
-            </tbody>
-
-        </table>
-
+            
     </fieldset>
 </form>
 <br />

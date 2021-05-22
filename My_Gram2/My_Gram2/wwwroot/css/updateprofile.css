@@ -1,2 +1,19 @@
-﻿body {
+﻿.flextable {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 0;
+    padding-left: 0;
+}
+
+.flextablecell {
+    width: default;
+    flex-grow: 1;
+    list-style: none;
+    overflow: hidden;
+}
+
+@media all and (max-width: 499px;) {
+    .flextablecell {
+        display: block;
+    }
 }

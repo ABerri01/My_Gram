@@ -1,67 +1,59 @@
-﻿<form>
-    <table>
-        <thead>
+﻿<link rel="stylesheet" href="~/css/updateprofile.css" />
+
+<form>
+   
             Update User Information
-        </thead>
-        <tbody>
-            <tr>
-                <td>
-                    <label for="FirstName">First Name:</label>
-                </td>
-                <td>
-                    <input type="text" id="First Name" />
-                </td>
-                </td>
-                <td>
-                    <label for="Last Name">Last Name:</label>
+    <div class="flexbox">
+        <div class="flextablecell">
+            <label for="FirstName">First Name:</label>
+        </div>
+        <div class="flextablecell">
+            <input type="text" id="First Name" />
+        </div>
 
-                </td>
-                <td>
-                    <input type="text" id="Last Name" />
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label>Gender:</label>
-                </td>
-                <td colspan="3">
-                    <input type="radio" id="MaleGender" name="gender" />
-                    <label for="MaleGender">Male</label>
+        <div class="flextablecell">
+            <label for="Last Name">Last Name:</label>
 
-                    <input type="radio" id="FemaleGender" name="gender" />
-                    <label for="FemaleGender">Female</label>
+        </div>
+        <div class="flextablecell">
+            <input type="text" id="Last Name" />
+        </div>
 
-                    <input type="radio" id="NoResponse" name="gender" />
-                    <label for="NoResponse">Prefer not to say</label>
-                </td>
-            </tr>
-           
-            <tr>
-              
-                <td colspan="2">
-                    <label for="Email">Email:</label>
-                    <input type="email" id="Email" />
-                </td>
-            </tr>
-            <tr>
-                <td colspan="4">
-                    <label for="SelectCountry">Select Country:</label>
-                    <select id="country" name="country">
-                        <option value="United States of America">United States of America</option>
-                        <option value="Mexico">Mexico</option>
-                        <option value="Canada">Canada</option>
-                        <option value="Other">Other</option>
-                    </select>
-                </td>
-            </tr>
-           
 
-            <tr>
-                <td colspan="4">
-                    <input type="submit" />
-                </td>
+        <div class="flextablecell">
+            <label>Gender:</label>
+        </div>
+        <div class="flextablecell">
+            <input type="radio" id="MaleGender" name="gender" />
+            <label for="MaleGender">Male</label>
 
-            </tr>
-        </tbody>
-    </table>
+            <input type="radio" id="FemaleGender" name="gender" />
+            <label for="FemaleGender">Female</label>
+
+            <input type="radio" id="NoResponse" name="gender" />
+            <label for="NoResponse">Prefer not to say</label>
+        </div>
+
+
+
+        <div class="flextablecell">
+            <label for="Email">Email:</label>
+            <input type="email" id="Email" />
+        </div>
+
+        <div class="flextablecell">
+            <label for="SelectCountry">Select Country:</label>
+            <select id="country" name="country">
+                <option value="United States of America">United States of America</option>
+                <option value="Mexico">Mexico</option>
+                <option value="Canada">Canada</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+
+        <div class="flextablecell">
+            <input type="submit" />
+        </div>
+
+    </div>
 </form>

@@ -116,11 +116,7 @@ body {
     background-color: #fafafa!important; 
 }
 
-.story {
-    width: 15px;
-    height: 15px;
-    text-align: center !important;
-}
+
 
 .DivParent {
     position: relative;
@@ -184,3 +180,16 @@ body {
     width: 10px;
     height: 10px;
 }
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+video {
+    width: 150px;
+    height: 150px;
+}
+
+
+
