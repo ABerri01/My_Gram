@@ -1,4 +1,8 @@
-﻿
+﻿header {
+    display: flex;
+    text-align : left;
+    font-size: 20px;
+}
 .Calendar {
     margin: 0;
     padding: 0;
@@ -13,19 +17,35 @@
 .Calendar .Date {
     padding: 20px;
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto;
-    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-columns: repeat(7, 1fr);
     box-sizing: border-box;
     grid-gap: 10px;
     box-sizing: border-box;
 }
 
-.Calendar .Date .div {
+.day .weekend {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin-left: 0;
+}
+
+.Calendar .Date div {
     display: flex;
     align-content: center;
     height: 15px;
     color: white;
 }
-    .Calendar .Date .div .weekend {
-        background: grey;
+
+    .Calendar .Date div .day .weekend {
+        font-size: 14px;
+    }
+
+    .Calendar .Date div .weekend:first-child {
+        background-color: grey;
+    }
+
+    .Calendar .Date div.number .active {
+        color: red;
     }

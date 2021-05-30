@@ -1,24 +1,25 @@
 ﻿<Properties StartupConfiguration="{8CF94C88-7141-4EBF-9A31-FFA2F1BDFBBE}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="My_Gram2/Controllers/HomeController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="My_Gram2/wwwroot/css/Index.css">
     <Files>
       <File FileName="My_Gram2/Views/Home/Register.cshtml" Line="42" Column="1" />
       <File FileName="My_Gram2/Views/Home/MyProfile.cshtml" />
-      <File FileName="My_Gram2/Views/Home/Calendar.cshtml" Line="57" Column="8" />
-      <File FileName="My_Gram2/wwwroot/css/Calendar.css" />
+      <File FileName="My_Gram2/Views/Home/Calendar.cshtml" Line="58" Column="19" />
+      <File FileName="My_Gram2/wwwroot/css/Calendar.css" Line="40" Column="1" />
       <File FileName="My_Gram2/Views/Home/Index.cshtml" />
       <File FileName="My_Gram2/Views/Home/Privacy.cshtml" />
-      <File FileName="My_Gram2/Views/Home/UpdateProfile.cshtml" />
-      <File FileName="My_Gram2/Views/Shared/_Layout.cshtml" />
-      <File FileName="My_Gram2/Controllers/HomeController.cs" Line="44" Column="10" />
+      <File FileName="My_Gram2/Views/Home/UpdateProfile.cshtml" Line="2" Column="1" />
+      <File FileName="My_Gram2/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
+      <File FileName="My_Gram2/Controllers/HomeController.cs" Line="55" Column="10" />
+      <File FileName="My_Gram2/wwwroot/css/site.css" Line="1" Column="1" />
+      <File FileName="My_Gram2/wwwroot/css/register.css" Line="1" Column="1" />
+      <File FileName="My_Gram2/wwwroot/css/Index.css" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="My_Gram2" expanded="True">
             <Node name="My_Gram2" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="HomeController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Properties" expanded="True" />
               <Node name="Views" expanded="True">
@@ -26,7 +27,9 @@
                 <Node name="Shared" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
-                <Node name="css" expanded="True" />
+                <Node name="css" expanded="True">
+                  <Node name="Index.css" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
