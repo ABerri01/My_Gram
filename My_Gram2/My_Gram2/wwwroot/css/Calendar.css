@@ -1,2 +1,31 @@
-﻿body {
+﻿
+.Calendar {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+    background: white;
+    box-sizing: border-box;
+    display: flex;
+    align-content: center;
 }
+
+.Calendar .Date {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
+    box-sizing: border-box;
+    grid-gap: 10px;
+    box-sizing: border-box;
+}
+
+.Calendar .Date .div {
+    display: flex;
+    align-content: center;
+    height: 15px;
+    color: white;
+}
+    .Calendar .Date .div .weekend {
+        background: grey;
+    }
