@@ -24,30 +24,40 @@
     text-align: center !important;
 }
 
-#MainProfileContainer {
+#optionstable {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto auto auto auto;
+    text-align: center !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.MainProfileContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
     width: 100%;
 }
 
-#MainProfileInformation {
+.MainProfileInformation {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     display: grid;
     grid-template-columns: auto auto auto;
-    width: 45%;
+    width: 55%;
 }
 
-.Span2columns {
-    grid-column-start: 1;
-    grid-column-end: 3;
+.span2columns {
+    grid-column-start: 2;
+    grid-column-end: 4;
 }
 
-.Span3rows {
+.span3rows {
     grid-row-start: 1;
     grid-row-end: 4;
 }
+
+
 
 @media only screen and (min-width: 501px) {
     .story .container2 {

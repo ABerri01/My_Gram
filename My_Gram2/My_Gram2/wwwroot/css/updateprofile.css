@@ -1,19 +1,45 @@
-﻿.flextable {
+﻿#formcontainer {
     display: flex;
-    flex-wrap: wrap;
-    margin: 0 0 0;
-    padding-left: 0;
+    flex-direction: column;
+    
 }
 
-.flextablecell {
-    width: default;
-    flex-grow: 1;
-    list-style: none;
-    overflow: hidden;
+.flexrow {
+    flex-direction: row;
+    width: 100%;
+    display: flex;
+
 }
 
-@media all and (max-width: 499px;) {
-    .flextablecell {
-        display: block;
+.columnlabels {
+    width: 30%;
+}
+
+.columninputs {
+    width: 80%;
+}
+
+.fullrow {
+    width: 82%;
+}
+
+.fullrow select {
+    width: 100%;
+}
+@media all and (max-width: 550px) {
+    .flexrow {
+        flex-direction: column;
+    }
+
+    .columnlabels {
+        width: 100%;
+    }
+
+    .columninputs {
+        width: 100%;
+    }
+
+    .fullrow {
+        width: 100%;
     }
 }

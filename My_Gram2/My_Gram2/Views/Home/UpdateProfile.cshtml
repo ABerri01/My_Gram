@@ -3,27 +3,44 @@
 <form>
    
             Update User Information
-    <div class="flexbox">
-        <div class="flextablecell">
-            <label for="FirstName">First Name:</label>
+    <div id="formcontainer">
+        <div class="flexrow">
+            <div class="columnlabels">
+                <label for="FirstName">First Name:</label>
+            </div>
+            <div class="columninputs">
+                <input type="text" id="First Name" placeholder="input your first name" />
+            </div>
+            <div class="columnlabels">
+                <label for="Last Name">Last Name:</label>
+            </div>
+            <div class="columninputs">
+                <input type="text" id="Last Name" placeholder="input your last name" />
+            </div>
         </div>
-        <div class="flextablecell">
-            <input type="text" id="First Name" />
+           
+        <div class="flexrow">
+            <div class="columnlabels">
+                <label for="User">User:</label>
+            </div>
+            <div class="columninputs">
+                <input type="text" id="Username" placeholder="input your username" />
+            </div>
+            <div class="columnlabels">
+                <label for="Last Name">Password:</label>
+            </div>
+            <div class="columninputs">
+                <input type="text" id="Password" placeholder="input your password" />
+            </div>
         </div>
-
-        <div class="flextablecell">
-            <label for="Last Name">Last Name:</label>
-
-        </div>
-        <div class="flextablecell">
-            <input type="text" id="Last Name" />
-        </div>
+            </div>
 
 
-        <div class="flextablecell">
+
+        <div class="flexrow">
             <label>Gender:</label>
         </div>
-        <div class="flextablecell">
+        <div class="flexrow">
             <input type="radio" id="MaleGender" name="gender" />
             <label for="MaleGender">Male</label>
 
@@ -36,12 +53,9 @@
 
 
 
-        <div class="flextablecell">
-            <label for="Email">Email:</label>
-            <input type="email" id="Email" />
-        </div>
+      
 
-        <div class="flextablecell">
+        <div class="fullrow">
             <label for="SelectCountry">Select Country:</label>
             <select id="country" name="country">
                 <option value="United States of America">United States of America</option>
@@ -51,7 +65,7 @@
             </select>
         </div>
 
-        <div class="flextablecell">
+        <div class="flexrow">
             <input type="submit" />
         </div>
 
