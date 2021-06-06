@@ -1,98 +1,41 @@
-﻿:root {
-    --tablefontsize: 2rem;
-    --tableheaderfontsize: 12;
-    --size15px: 15px;
-}
-#table {
-    text-align: center !important;
-    margin-left: auto;
-    margin-right: auto;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
+﻿
+.table {
+    
 }
 
-#story {
-    text-align: center !important;
-    margin-left: auto;
-    margin-right: auto;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto auto;
-    width: var(--size15px);
-    height: var(--size15px);
-    text-align: center !important;
+.story {
+   
 }
 
-#optionstable {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    text-align: center !important;
-    margin-left: auto;
-    margin-right: auto;
+.optionstable {
+    
 }
 
 .MainProfileContainer {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    width: 100%;
+    height: 300px;
 }
 
 .MainProfileInformation {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    width: 55%;
+ 
 }
 
-.span2columns {
-    grid-column-start: 2;
-    grid-column-end: 4;
+.stories {
+    
 }
 
-.span3rows {
-    grid-row-start: 1;
-    grid-row-end: 4;
+.row {
+    height: 100px;
 }
 
-
-
-@media only screen and (min-width: 501px) {
-    .story .container2 {
-        text-align: center !important;
-        display: none;
-        background-color: grey;
-        color: var(--tableheaderfontcolor);
-        font-size: var(--tablefontsize);
-    }
-    .table {
-        text-align: center !important;
-        display: none;
-        display: grid;
-        grid-template-columns: auto auto auto;
-        grid-template-rows: auto;
-    }
+.mainstoriescontainer {
+    height: 100px;
 }
-@media only screen and (max-width: 500px) {
-    #story .container2 {
-        text-align: center !important;
-        display: none;
-        background-color: var(--tableheaderbgcolorbig);
-        color: var(--tableheaderfontcolor);
-        font-size: var(--tablefontsize);
-    }
-    .table {
-        text-align: center !important;
-        display: none;
-        margin-left: auto;
-        margin-right: auto;
-        display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: auto;
-    }
-    }
 
+.mainoptionstable {
+    height: 100px;
+}
+.maintable {
+    height: 100px;
+}
 
 
