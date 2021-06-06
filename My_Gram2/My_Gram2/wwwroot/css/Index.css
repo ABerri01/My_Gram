@@ -1,9 +1,8 @@
-﻿
-.table {
+﻿.table {
     
 }
 
-.story {
+.mainstory {
    
 }
 
@@ -20,11 +19,11 @@
 }
 
 .stories {
-    
+    height: 300px;
 }
 
 .row {
-    height: 100px;
+    height: 180px;
 }
 
 .mainstoriescontainer {
@@ -37,5 +36,4 @@
 .maintable {
     height: 100px;
 }
-
 
