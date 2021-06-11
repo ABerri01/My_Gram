@@ -33,3 +33,14 @@
     
 }
 
+#carouselExampleControls {
+    width: 400px!important;
+}
+
+#carouselExampleControls img {
+    width: 250px !important;
+}
+
+#modalactive {
+
+}
