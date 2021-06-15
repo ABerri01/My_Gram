@@ -7,24 +7,17 @@
 }
 
 #calendar {
-   display: grid;
-   grid-template-columns: auto;
+   
 }
 .calendarheaderrow {
-    display: flex;
-    flex-direction: row;
-    align-content: flex-end; 
+    
 }
 
 .calendarrow {
-    display: flex;
-    flex-direction: row;
 }
 
 .flexitem {
-    width: 14.28%;
-    display: flex;
-    justify-content: flex-start;
+    height: 20%;
 }
 
 .flexitem {
@@ -39,9 +32,7 @@
     border-width: 1px;
     border-color: black;
     height: 120px;
-    display: flex;
-    grid-template-columns: auto;
-    flex-direction: column;
+    
 
 }
 
@@ -51,12 +42,11 @@
 
 .weekdayitem {
     height: 20%;
-    display: flex;
+    
 }
 
 .dayclass {
-    display: flex;
-    justify-content: flex-end;
+   
 }
 
 .event {
@@ -81,5 +71,5 @@
 
 @media all and (max-width: 550px) {
     .calendarrow {
-        flex-direction: column;
+        
     }
