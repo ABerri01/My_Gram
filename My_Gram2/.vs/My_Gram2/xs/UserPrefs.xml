@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{8CF94C88-7141-4EBF-9A31-FFA2F1BDFBBE}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="My_Gram2/Views/Home/Calendar.cshtml">
     <Files>
-      <File FileName="My_Gram2/Views/Home/Index.cshtml" Line="8" Column="44" />
-      <File FileName="My_Gram2/Views/Home/Calendar.cshtml" Line="363" Column="1" />
-      <File FileName="My_Gram2/wwwroot/css/Calendar.css" Line="20" Column="16" />
+      <File FileName="My_Gram2/Views/Home/Index.cshtml" Line="46" Column="35" />
+      <File FileName="My_Gram2/Views/Home/Calendar.cshtml" Line="36" Column="76" />
+      <File FileName="My_Gram2/wwwroot/css/Calendar.css" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
